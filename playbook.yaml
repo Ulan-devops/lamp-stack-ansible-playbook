@@ -25,7 +25,7 @@
     - zip
     ignore_errors: true
 
-  - name: Download 1 package
+  - name: Download package
     get_url:
       url: "https://wordpress.org/latest.zip"
       dest: /tmp/
