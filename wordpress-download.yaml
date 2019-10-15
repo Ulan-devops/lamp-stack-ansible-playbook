@@ -5,7 +5,7 @@
   become: yes
   become_method: sudo
   tasks:
-  - name: Download 1 package
+  - name: Download package
     get_url:
       url: ""
       dest: /tmp/
